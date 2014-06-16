@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1402346192 source:/home/heihachi/Documents/ircBot/AceBot/main.cpp
+	<cstdio>
+	"ace/ACE.h"
+	"ace/SOCK_Connector.h"
+	"ace/INET_Addr.h"
+	"ace/Log_Msg.h"
+	"scr/connection.h"
+
+1402346227 /home/heihachi/Documents/ircBot/AceBot/scr/connection.h
+
+1402717955 source:/home/heihachi/Documents/ircBot/AceBot/scr/main.cpp
+	"main.h"
+	"Configuration/Config.h"
+	"Client/Client.h"
+
+1402717893 /home/heihachi/Documents/ircBot/AceBot/scr/main.h
+	<cstdio>
+	<string>
+	"ace/ACE.h"
+	"ace/SOCK_Connector.h"
+	"ace/INET_Addr.h"
+	"ace/Log_Msg.h"
+
+1402362633 /home/heihachi/Documents/ircBot/AceBot/scr/Server/Server.h
+	"ace/Reactor.h"
+	"ace/SOCK_Acceptor.h"
+	"ace/Event_Handler.h"
+	"../Handler/Client_Handler.h"
+
+1402360372 /home/heihachi/Documents/ircBot/AceBot/scr/Handler/Client_Handler.h
+	"ace/Event_Handler.h"
+	"ace/INET_Addr.h"
+	"ace/SOCK_Stream.h"
+	"ace/Log_Msg.h"
+
+1402363207 source:/home/heihachi/Documents/ircBot/AceBot/scr/Server/Server.cpp
+	"Server.h"
+
+1402717875 /home/heihachi/Documents/ircBot/AceBot/scr/Client/Client.h
+	"../main.h"
+	<vector>
+	<fstream>
+	"ace/SOCK_Connector.h"
+	"ace/SString.h"
+	"ace/Log_Msg.h"
+
+1402718492 source:/home/heihachi/Documents/ircBot/AceBot/scr/Client/Client.cpp
+	"Client.h"
+
+1402533373 source:/home/heihachi/Documents/ircBot/AceBot/scr/Configuration/Config.cpp
+	"Config.h"
+
+1402534038 /home/heihachi/Documents/ircBot/AceBot/scr/Configuration/Config.h
+	<string>
+	<list>
+	<ace/Singleton.h>
+	<ace/Configuration_Import_Export.h>
+	<ace/Thread_Mutex.h>
+	"../AutoPtr.h"
+	"../Debugging/Errors.h"
+
+1402531950 /home/heihachi/Documents/ircBot/AceBot/scr/AutoPtr.h
+	<ace/Bound_Ptr.h>
+
+1402532604 /home/heihachi/Documents/ircBot/AceBot/scr/Debugging/Errors.h
+	"../Define.h"
+
+1402532550 /home/heihachi/Documents/ircBot/AceBot/scr/Define.h
+	"CompilerDefs.h"
+	<ace/Basic_Types.h>
+	<ace/ACE_export.h>
+	<cstddef>
+
+1402532650 /home/heihachi/Documents/ircBot/AceBot/scr/CompilerDefs.h
+
+1402532397 source:/home/heihachi/Documents/ircBot/AceBot/scr/Debugging/Errors.cpp
+	"Errors.h"
+	<ace/Stack_Trace.h>
+	<ace/OS_NS_unistd.h>
+	<cstdlib>
+
+1402641070 /home/heihachi/Documents/ircBot/AceBot/scr/Window/Window.h
+	<ncurses.h>
+	<ctime>
+	<cstdio>
+
+1402642185 source:/home/heihachi/Documents/ircBot/AceBot/scr/Window/Window.cpp
+	"Window.h"
+
