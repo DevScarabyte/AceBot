@@ -10,13 +10,13 @@ Linux
 ~~Windows~~
 ~~OSX~~
 
-## Setup
+#### Setup
 Depending on how you compile and run is what you need to do.
 
 Using CodeBlocks to run
 1. Start Code-Blocks
 2. Open Project
-⋅⋅* Everything should be configured properly 
+⋅⋅* Everything should be configured properly
 3. Move AceBot/bot.conf.dist to AceBot/bot.conf
 ⋅⋅1. Edit the file to your liking.
 4. Compile and Run.
